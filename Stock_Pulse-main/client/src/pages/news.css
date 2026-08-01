@@ -1,0 +1,51 @@
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #0f1420;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.news-item {
+  margin-bottom: 15px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+
+.positive {
+  color: #22d3a0;
+}
+
+.negative {
+  color: #ff4d6a;
+}
+
+.neutral {
+  color: #8b91a8;
+}
+
+.bar {
+  height: 8px;
+  background: #111;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.fill {
+  width: 65%;
+  height: 100%;
+  background: linear-gradient(to right, red, orange, green);
+}
+
+.green {
+  color: #22d3a0;
+}

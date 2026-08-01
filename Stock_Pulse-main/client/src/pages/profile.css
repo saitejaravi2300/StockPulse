@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #f1f2f4;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #141927;
+  border: none;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  background: #00d4aa;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
